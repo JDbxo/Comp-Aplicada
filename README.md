@@ -21,3 +21,13 @@
 - p012-funcion-matematicas-equacion.py 
 - p013-funciones-matematicas-precios.py 
 - p014-funciones-trigonometricas.py
+
+## Tarea 1
+- p015-hipotenusa-triangulo
+- p016-tercer-angulo
+- p017-convertir-temperatura
+- p018-area-volumen-cilindro
+- p019-calculo-tiempo
+- p020-numero-suerte
+- p021-distancia-entre-puntos
+- p022-resistencia-equivalente-paralelo
