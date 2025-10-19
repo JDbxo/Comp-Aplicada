@@ -4,17 +4,15 @@
 lista_a = []
 lista_b = []
 
-lista_a = list(map(int, input('Introduzca 5 numeros para la lista A: ').split()))
+print('Introduzca 5 numeros para la lista A:')
+for i in range(5):
+    num = int(input(f"A[{i+1}]: "))
+    lista_a.append(num)
 
-while len(lista_a) != 5:
-    print('Debe introducir exactamente 5 numeros.')
-    lista_a = list(map(int, input('Introduzca 5 numeros para la lista A: ').split()))
-
-lista_b = list(map(int, input('Introduzca 5 numeros para la lista B: ').split()))
-
-while len(lista_b) != 5:
-    print('Debe introducir exactamente 5 numeros.')
-    lista_b = list(map(int, input('Introduzca 5 números para la lista B: ').split()))
+print('\nIntroduzca 5 numeros para la lista B:')
+for i in range(5):
+    num = int(input(f'B[{i+1}]: '))
+    lista_b.append(num)
 
 lista_c = [lista_a[i] * lista_b[i] for i in range(5)]
 
@@ -22,4 +20,5 @@ print('\n--- Resultados ---')
 print(f'Lista A: {lista_a}')
 print(f'Lista B: {lista_b}')
 print(f'Lista C (A * B): {lista_c}')
+
 
