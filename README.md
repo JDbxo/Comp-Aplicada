@@ -170,3 +170,6 @@
 ## Tarea 7 - Conjuntos
 - p123-conjunto-personas.py
 - p124-conjunt-numeros.py
+
+## Examen Parcial 2 
+- p125-segundo-sxamen-parcial.py
